@@ -1,0 +1,127 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url("/public/Images/3.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.container{
+    display:flex;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.card1{
+    height: 180px;
+    width: 500px;
+    background-color: transparent;
+    border-radius: 10px;
+    background-color: azure;
+    margin-right: 10px;
+    
+}
+.card1:hover{
+    background-color: transparent;
+}
+
+.card2{
+    height: 180px;
+    width: 500px;
+    background-color: transparent;
+    border-radius: 10px;
+    background-color: azure;
+    margin-right: 10px;
+    
+}
+.card2:hover{
+    background-color: transparent;
+}
+   
+.card3{
+    height: 180px;
+    width: 500px;
+    background-color: transparent;
+    border-radius: 10px;
+    background-color: azure;
+    margin-right: 10px;
+    
+}
+.card3:hover{
+    background-color: transparent;
+}
+  .icons{
+    padding-top: 400px;
+   display: flex;
+  }
+
+  .whatsapp:hover{
+   background-color: darkgreen;
+   border-radius: 5px;
+  }
+  .whatsapp{
+    margin-right: 10px;
+  }
+     
+  .facebook:hover{
+    background-color: rgb(126, 150, 201);
+    border-radius: 5px;
+   }
+   .facebook{
+     margin-right: 10px;
+   }
+
+   .mail:hover{
+    background-color: rgb(123, 26, 26);
+    border-radius: 5px;
+
+   }
+
+   .form{
+    padding-top: 250px;
+   }
+
+   .input{
+    border-radius: 5px;
+    background-color:cornsilk;
+    border-color: aliceblue;
+    border-style: groove;
+
+   }
+   .label{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+   }
+.card h2:hover{
+    background-color:aqua;
+}
+
+.heading{
+    font-size: 2.4rem;
+    text-align:center;
+}
+
+   
+  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   

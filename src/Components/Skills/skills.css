@@ -1,0 +1,170 @@
+.header{
+    background-color: aqua;
+}
+
+.image{
+    height: 150px;
+}
+.mdbcards{
+    display:flex;
+    justify-content: space-around;
+}
+.mdbcard1{
+    margin: 10px;
+    border-radius: 10px;
+    background-image: url('C:\Users\subai\Desktop\New-react\my-portfolio\public\Images\html5.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+   
+   
+    
+}
+
+.mdbcard1:hover{
+    background-color:orange;
+}
+
+
+.mdbcard1{
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+.mdbcard2{
+    margin: 10px;
+    border-radius: 10px;
+    background-image: url('C:\Users\subai\Desktop\New-react\my-portfolio\public\Images\css-3.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    
+}
+
+.mdbcard2:hover{
+    background-color: skyblue;
+}
+
+.mdbcard2{
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+
+  }
+.mdbcard3{
+    margin: 10px;
+    border-radius: 10px;
+    background-image: url('C:\Users\subai\Desktop\New-react\my-portfolio\public\Images\bootstrap.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+ 
+}
+
+.mdbcard3:hover{
+    background-color:violet;
+}
+.mdbcard4{
+    margin: 10px;
+    border-radius: 10px;
+    background-image: url('C:\Users\subai\Desktop\New-react\my-portfolio\public\Images\java-script.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    
+}
+
+.mdbcard4:hover{
+    background-color: yellow;
+}
+.mdbcard5{
+    margin: 10px;
+    border-radius: 10px;
+    background-image: url('C:\Users\subai\Desktop\New-react\my-portfolio\public\Images\atom.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+}
+
+.mdbcard5:hover{
+    background-color:black;
+}
+
+.mdbcard3{
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+
+  }
+  .mdbcard4{
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+
+  }
+  .mdbcard5{
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+
+  }
