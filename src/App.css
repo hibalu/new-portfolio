@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+.birthday{
+  text-align: center;
+  
+  color: #17321b;
+  background:url('./Components/assets/Keerthana.png');
+  padding: 250px;
+  cursor: pointer;
+  background-repeat:no-repeat ;
+  font-family:cursive;
+  
+}
+
+
+.keerthi{
+  background-color: transparent;
+  padding: 10px 10px;
+  border-radius: 10px;
+  color: rgb(19, 140, 192);
+}
+h1{
+  animation-duration:1s;
+  animation-name:slideout;
+}
+
+@keyframes slideout {
+  from {
+    margin-left: 100%;
+    width: 20%;
+  }
+
+  to {
+    margin-right: 0%;
+    width: 20%;
+  }
+}

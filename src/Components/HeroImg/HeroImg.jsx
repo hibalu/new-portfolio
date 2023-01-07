@@ -1,21 +1,18 @@
-import React from 'react'
-import { Component } from 'react'
-import './HeroImg.css'
+import React from "react";
+import { Component } from "react";
+import "./HeroImg.css";
 
-class HeroImg extends Component  {
-    render(){
-        return (
-            <div className='hero-img'>
-                <div className="heading">
-                   <h1>{this.props.heading}</h1> 
-                   <p>{this.props.text}</p>
-                </div>
-        
-            </div>
-          )
-        }
+class HeroImg extends Component {
+  render() {
+    return (
+      <div className="hero-img">
+        <div className="heading">
+          <h1>{this.props.heading}</h1>
+          <p>{this.props.text}</p>
+        </div>
+      </div>
+    );
+  }
+}
 
-    }
-  
-
-export default HeroImg
+export default HeroImg;
